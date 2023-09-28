@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  
+}
+.items{
+  min-width: 20rem;
+  min-height: 20rem;
+  padding: 40px;
+}
+
+.items img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  pointer-events: none;
+}
+
+.innerCarousel{
+  display: flex;
+  background: bisque;
+}
+.outerCarousel{
+  cursor: grab;
+  overflow: hidden;
+  background: bisque;
+  border-radius: 10px;
+  
+}
